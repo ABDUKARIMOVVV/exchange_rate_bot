@@ -4,8 +4,11 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.utils import executor
 import redis
 import os
+fron dotenv import load_dotenv
 import requests
 import xml.etree.ElementTree as ET
+
+load_dotenv()
 
 logging.basicConfig(level=logging.INFO)
 
