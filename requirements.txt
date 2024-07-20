@@ -1,0 +1,5 @@
+aiohttp
+redis==4.2.2
+aiogram==2.25.1
+aioschedule
+requests==2.26.0
